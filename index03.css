@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 70px;
+    padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41,41,41);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #8593FF;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    line-height: 80px;
+    margin-right: -170px;
+}
+#check{
+    display: none;
+}
+/* section 1 start */
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 200px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+    margin-top: -50px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 60px;
+}
+.half1 p{
+    color: rgba(78, 78, 78,0.7);
+}
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8293FF;
+    border: 1px solid #8293FF;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/* SECTION 1 END */
+
+/* SECTION 2 START */
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 90%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: lighter;
+    color: rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+    width: 90%;
+}
+.text2 input{
+    font-size: 20px;
+    padding: 12px 16px;
+    outline: none;
+    color: white;
+    background-color: #72A7FD;
+    border: none;
+    cursor: pointer;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/* SECTION 2 END*/
+
+/* SECTION 3 START */
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text3 h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.text3 p{
+    width: 670px;
+    color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 35px;
+    color: rgba(0,0,0,0.7);
+}
+.service h1{
+    color: rgba(0,0,0,0.9);
+}
+.service p{
+    color: rgba(0,0,0,0.6);
+    width: 90%;
+    margin: 0 auto;
+}
+.ser1 div:hover{
+    background-color: #8293FF;
+}
+.ser2 div:hover{
+    background-color: #8293FF;
+}
+.ser2 div:hover p{
+    color: white;
+}
+.ser2 div:hover i{
+    color: white;
+}
+.ser2 div:hover h1{
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser1 div:hover i{
+    color: white;
+}
+.ser1 div:hover h1{
+    color: white;
+}
+/* SECTION 3 END */
+
+/* SECTION 4 Start */
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #6AB2FC;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 145px;
+}
+.section4 h1{
+    font-size: 45px;
+    line-height: 0;
+}
+.section4 h1,p{
+    text-align: center;
+    color: white;
+}
+/* SECTION 4 END */
+
+/* portfolio start */
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text4{
+    text-align: center;
+    padding: 100px 0;
+}
+.section5 .text4 h1{
+    font-size: 40px;
+    color: rgba(0,0,0,0.9);
+}
+.section5 .text4 p{
+    color: rgba(0,0,0,0.7);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section5 .imgg{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 90px;
+}
+.section5 .imgg div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+    margin-left: 30px;
+}
+.section5 .imgg p{
+    color: rgba(0,0,0,0.7);
+    line-height: 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+.section5 figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure:hover img{
+    opacity: 0.3;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+/* pricing table start */
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.section6 .text5{
+    text-align: center;
+    padding: 2px 0;
+}
+.section6 .text5 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section6 .text5 p{
+    color: rgba(0,0,0,0.7);
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 50px;
+    cursor: pointer;
+    gap: 40px;
+}
+.section6 .card1{
+    width: 300px;
+    height: 600px;
+    background-color: rgba(249, 249,255);
+    text-align: center;
+    border: 1px solid rgba(245, 222, 179,0.5);
+    padding-top: 20px;
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .card1 .price{
+    font-size: 40px;
+}
+.section6 .card1 p{
+    color: rgba(0,0,0,0.7);
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293FF;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #8293FF;
+    color: white;
+    transition: all .25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgb(130, 147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.section6 .card1:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+/* pricing table end */
+
+/* footer start */
+footer{
+    background-color: rgb(4,9,30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+footer .foot .foot1 p{
+    color: rgba(255,255,255,0.5);
+}
+footer .foot .foot1 p a{
+    text-decoration: none;
+    color: #043EDB;
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293FF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot2{
+    margin-right: -110px;
+}
+footer .foot .foot2 p{
+    color: rgba(255,255,255,0.5);
+}
+footer .foot .foot2 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot2 i:hover{
+    color: #8293FF;
+}
+/* footer end */
+/* responseb nevber start */
+@media(max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+       margin-left: 360px;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+#check:checked ~ ul{
+    left: 0;
+}
+header .nav ul li a{
+    font-size: 20px;
+    text-align: center;
+}
+}
+/* responseb nevber end */
+@media(max-width:768px){
+    .section1{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+     .half1{
+        margin: auto;
+        padding: 0;
+    }
+    .half1 h3{
+        font-size: 15px;
+    }
+    .half1 h1{
+        font-size: 30px;
+    }
+    .half2 img{
+        margin-left: 90px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+}
